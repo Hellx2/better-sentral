@@ -14,3 +14,8 @@
 .student-profile-wrapper hr {
     display: none;
 }
+
+#main_nav_ul > .ng-scope li.ng-scope a {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
