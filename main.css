@@ -31,3 +31,15 @@ h4 {
 .nav_icon.nav_badge {
     background-color: "#aaaadd";
 }
+
+.timetable-period {
+    background-color: #1a1a1a;
+}
+
+.timetable-dayperiod {
+    background-color: #1d1d1d;
+}
+
+.timetable-class {
+    background-color: #2d2d2d;
+}
