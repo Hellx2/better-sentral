@@ -1,0 +1,16 @@
+.main-container {
+    background-color: #1a1a1a;
+}
+
+#right-col .dash_collection {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.header {
+    background-color: #002255;
+}
+
+.student-profile-wrapper hr {
+    display: none;
+}
