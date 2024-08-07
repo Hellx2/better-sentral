@@ -27,3 +27,7 @@ h4 {
 .student-profile-wrapper {
     all: initial;
 }
+
+.nav_badge {
+    background-color: "#aaaadd";
+}
