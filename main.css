@@ -24,8 +24,8 @@ h4 {
     color: #ffffff;
 }
 
-.student-profile-wrapper {
-    all: initial;
+#right-col > .dash_collection {
+    padding: 5px;
 }
 
 .nav_badge {
