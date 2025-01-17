@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Better Sentral",
+  "version": "1.0",
+
+  "description": "Updates the Sentral UI to look and function better.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://killarney-h.sentral.com.au/*"],
+      "js": ["better-sentral.js"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "better-sentral@example.com"
+    }
+  },
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "storage"
+  ],
+  "browser_action": {
+      "default_icon": "icons/border-48.png",
+      "default_title": "Better Sentral",
+      "default_popup": "popup/choose-theme.html"
+  }
+}

@@ -1,0 +1,4 @@
+- document.styleSheets[0] must not be disabled or the page won't render
+- document.styleSheets[1] is for the width of the middle column and styles the selection menu
+- document.styleSheets[2] is for the icons
+- document.stylesheets[3] controls the alignment and layout of pretty much the entire page
